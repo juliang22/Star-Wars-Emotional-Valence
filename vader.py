@@ -1,4 +1,8 @@
-# Julian Grunauer —— 4/18/20 —— Computational Linguistics, Professor Solano —— Dartmouth College 
+#=======================================================================
+# Dartmouth College, Computational Linguistics, 4/18/20
+# Julian Grunauer (Julian.A.Grunauer.21@Dartmouth.edu)
+# Homework 3.1: NRC-Emotion-Lexicon
+#
 # This program uses the NRC-Emotion-Lexicon to estimate the levels of Darth Vader's emotions in 
 # Episodes 4, 5, and 6 os Star Wars. Darth Vader's lines are collected, stemmed, referenced 
 # against the NRC-Emotion-Lexicon, and the emotional values are then summed.
@@ -7,7 +11,9 @@
 # https://stackoverflow.com/questions/40849273/python-3-match-names-from-a-text-file-and-print-them-out-line-by-line
 # http://jonathansoma.com/lede/algorithms-2017/classes/more-text-analysis/nrc-emotional-lexicon/
 # https://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string
-# 
+# https://pythonspot.com/matplotlib-bar-chart/
+#=======================================================================
+
 
 import re
 import pandas as pd
